@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site dicas de saúde</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <p>PSYCHOS</p>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#introducao" class="active">Introdução</a>
+                </li>
+                <li>
+                    <a href="#funcionalidades">Funções</a>
+                </li>
+                <li>
+                    <a href="#dicas">Dicas</a>
+                </li>
+                <li>
+                    <a href="#depoimentos">Depoimentos</a>
+                </li>
+                <li>
+                    <a href="#assinatura">Assinaturas</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="mobile-menu">
+            <button onclick=hideMobileMenu()>
+                <i class="bi bi-x-lg"></i>
+            </button>
+            <ul>
+                <li data-target="">
+                    <a href="" class="active">Introdução</a>
+                </li>
+                <li>
+                    <a href="#">Funções</a>
+                </li>
+                <li>
+                    <a href="#">Dicas</a>
+                </li>
+                <li>
+                    <a href="#">Depoimentos</a>
+                </li>
+                <li>
+                    <a href="#">Assinaturas</a>
+                </li>
+            </ul>
+
+            <div class="download aparecer-menu">
+                <button><a href="https://play.google.com/store/apps" target="_blank">Download</a></button>
+            </div>
+        </div>
+        <div class="download">
+            <button><a href="https://play.google.com/store/apps" target="_blank">Download</a></button>
+        </div>
+        <div class="menu-button">
+            <button onclick=showMobileMenu()>
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </header>
+    <main>
+        <div class="container-introducao" id="introducao">
+            <div class="conteudo-introducao">
+                <div class="paragrafo-introducao">
+                    <p>
+                        Nosso aplicativo de saúde mental foi criado para oferecer suporte acessível e eficaz ao bem-estar emocional. Com ferramentas interativas e acompanhamento personalizado, ajudamos os usuários a gerenciar estresse, ansiedade e outros desafios, promovendo o equilíbrio e o crescimento pessoal.</p>
+                </div>
+                
+                <div class="botao-introducao">
+                    <a href="https://play.google.com/store/apps">Download</a>
+                </div>
+            </div>
+            <aside>
+                <img src="src/imagens/pexels-mdsnmdsnmdsn-2821823.jpg" alt="imagem-hero">
+            </aside>
+        </div>
+        <div class="container-funcionalidades" id="funcionalidades">
+            <div class="titulo">
+                <h2>Funcionalidades</h2>
+            </div>
+            <div class="container-cards">
+                <div class="card card-1">
+                    <div class="imagem-card">
+                        <i class="bi bi-activity"></i>
+                    </div>
+                    <p>Diminuir a Ansiedade</p>
+                </div>
+                <div class="card card-2">
+                    <div class="imagem-card">
+                        <i class="bi bi-chat-dots"></i>
+                    </div>
+                    <p>Meditação</p>
+                </div>
+                <div class="card card-3">
+                    <div class="imagem-card">
+                        <i class="bi bi-circle-half"></i>
+                    </div>
+                    <p>Vida Equilibrada</p>
+                </div>
+                <div class="card card-4">
+                    <div class="imagem-card">
+                        <i class="bi bi-bar-chart"></i>
+                    </div>
+                    <p>Evoluções</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-dicas" id="dicas">
+            <div class="titulo">
+                <h2>Dicas de Saúde</h2>
+            </div>
+            <div class="topico-esquerda">
+                <div class="numeracao-dicas">
+                    <p>01</p>
+                </div>
+                <div class="conteudo-dicas">
+                    <div class="subtitulo-dicas">
+                        <h3>Saúde Mental</h3>
+                    </div>
+                    <p>A saúde mental é fundamental para o bem-estar geral, influenciando como pensamos, sentimos e agimos no dia a dia. Cuidar da mente é tão importante quanto cuidar do corpo, pois afeta diretamente nossas relações, produtividade e qualidade de vida. Investir em práticas saudáveis e buscar apoio quando necessário são passos essenciais para manter o equilíbrio emocional e enfrentar os desafios com resiliência.</p>
+                </div>
+            </div>
+            <div class="topico-direita">
+                <div class="conteudo-dicas">
+                    <div class="subtitulo-dicas">
+                        <h3>Controlar Ansiedade</h3>
+                    </div>
+                    <p>O controle da ansiedade é essencial para uma vida equilibrada, pois a ansiedade excessiva pode afetar nossa saúde física e mental. Praticar técnicas de relaxamento, manter uma rotina saudável e buscar apoio profissional são passos importantes para gerenciar a ansiedade. Aprender a lidar com os gatilhos e cultivar hábitos positivos ajuda a reduzir o impacto da ansiedade no cotidiano, promovendo bem-estar e qualidade de vida.</p>
+                </div>
+                <div class="numeracao-dicas">
+                    <p>02</p>
+                </div>
+            </div>
+            <div class="topico-esquerda">
+                <div class="numeracao-dicas">
+                    <p>03</p>
+                </div>
+                <div class="conteudo-dicas">
+                    <div class="subtitulo-dicas">
+                        <h3>Meditação</h3>
+                    </div>
+                    <p>A meditação é uma prática poderosa para promover o equilíbrio mental e emocional. Ela ajuda a reduzir o estresse, melhorar a concentração e aumentar a sensação de bem-estar. Incorporar a meditação na rotina diária permite maior controle sobre os pensamentos e emoções, promovendo uma mente mais tranquila e resiliente. Com a prática regular, a meditação pode transformar a forma como lidamos com os desafios da vida.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-depoimentos" id="depoimentos">
+            <div class="titulo">
+                <h2>Depoimentos</h2>
+            </div>
+            <div class="wrapper-carousel">
+                <i id="esquerda" class="bi bi-caret-left"></i>
+                <ul class="carousel">
+                    <li class="card-carousel">
+                        <div class="carousel-image">
+                            <img src="src/imagens/mulher1.jpg" alt="foto1">
+                        </div>
+                        <div class="carousel-nome">
+                            <h2>Mariana</h2>
+                        </div>
+                        <div class="carousel-depoimento">
+                            <p>"Consegui superar a ansiedade com as técnicas de relaxamento oferecidas. Recomendo!"</p>
+                        </div>
+                    </li>
+                    <li class="card-carousel">
+                        <div class="carousel-image">
+                            <img src="src/imagens/homem1.jpg" alt="foto1">
+                        </div>
+                        <div class="carousel-nome">
+                            <h2>Lucas</h2>
+                        </div>
+                        <div class="carousel-depoimento">
+                            <p>"O app transformou minha rotina. Sinto-me mais tranquilo e focado no dia a dia."</p>
+                        </div>
+                    </li>
+                    <li class="card-carousel">
+                        <div class="carousel-image">
+                            <img src="src/imagens/mulher2.jpg" alt="foto1">
+                        </div>
+                        <div class="carousel-nome">
+                            <h2>Ana</h2>
+                        </div>
+                        <div class="carousel-depoimento">
+                            <p>"As meditações guiadas me ajudaram a dormir melhor e a controlar o estresse"</p>
+                        </div>
+                    </li>
+                    <li class="card-carousel">
+                        <div class="carousel-image">
+                            <img src="src/imagens/homem2.jpg" alt="foto1">
+                        </div>
+                        <div class="carousel-nome">
+                            <h2>Rafael</h2>
+                        </div>
+                        <div class="carousel-depoimento">
+                            <p>"Acompanhamento diário fez toda a diferença na minha jornada de autoconhecimento."</p>
+                        </div>
+                    </li>
+                    <li class="card-carousel">
+                        <div class="carousel-image">
+                            <img src="src/imagens/mulher3.jpg" alt="foto1">
+                        </div>
+                        <div class="carousel-nome">
+                            <h2>Isabela</h2>
+                        </div>
+                        <div class="carousel-depoimento">
+                            <p>"Nunca me senti tão em paz. O app me ensinou a lidar melhor com meus pensamentos."</p>
+                        </div>
+                    </li>
+                    <li class="card-carousel">
+                        <div class="carousel-image">
+                            <img src="src/imagens/homem3.jpg" alt="foto1">
+                        </div>
+                        <div class="carousel-nome">
+                            <h2>Carlos</h2>
+                        </div>
+                        <div class="carousel-depoimento">
+                            <p>"Agora, consigo gerenciar meus sentimentos de forma saudável e equilibrada. Excelente ferramenta!"</p>
+                        </div>
+                    </li>
+                </ul>
+                <i id="direita" class="bi bi-caret-right "></i>
+            </div>
+        </div>
+        <div class="container-assinatura" id="assinatura">
+            <div class="titulo">
+                <h2>Assinaturas</h2>
+            </div>
+            <div class="cards-assinatura">
+                <div class="card-assinatura">
+                    <h1>Plano Essencial</h1>
+                    <h2>R$30,00</h2>
+                    <p>Acesso a meditações guiadas e técnicas de relaxamento. Ideal para iniciar sua jornada de bem-estar e gerenciar o estresse de forma eficaz.</p>
+                    <div class="lista-assinatura">
+                        <ul>
+                            <li>
+                                <i class="bi bi-tropical-storm"></i>
+                                <p>Livros de Meditação</p>
+                            </li>
+                            <li>
+                                <i class="bi bi-people"></i>
+                                <p>Acesso a comunidade</p>
+                            </li>
+                            <li>
+                                <i class="bi bi-book"></i>
+                                <p>Materiais diários</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-assinatura">
+                    <h1>Plano Intermediário</h1>
+                    <h2>R$50,00</h2>
+                    <p>Inclui meditações, técnicas de relaxamento e audiobooks exclusivos. Perfeito para aprofundar sua prática e explorar novas formas de bem-estar.</p>
+                    <div class="lista-assinatura">
+                        <ul>
+                            <li>
+                                <i class="bi bi-tropical-storm"></i>
+                                <p>Livros de Meditação</p> 
+                            </li>
+                            <li>
+                                <i class="bi bi-people"></i>
+                                <p>Acesso a comunidade</p>
+                            </li>
+                            <li>
+                                <i class="bi bi-book"></i>
+                                <p>Materiais diários</p>
+                            </li>
+                            <li>
+                                <i class="bi bi-cassette"></i>
+                                <p>Áudiobooks</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card-assinatura">
+                    <h1>Plano Premium</h1>
+                    <h2>R$80,00</h2>
+                    <p>Acesso completo a meditações, técnicas de relaxamento e um exclusivo dashboard mental. Monitore seu progresso, visualize insights personalizados e otimize sua jornada de bem-estar com ferramentas avançadas.</p>
+                    <div class="lista-assinatura">
+                        <ul>
+                            <li>
+                                <i class="bi bi-tropical-storm"></i>
+                                <p>Livros de Meditação</p> 
+                            </li>
+                            <li>
+                                <i class="bi bi-people"></i>
+                                <p>Acesso a comunidade</p>
+                            </li>
+                            <li>
+                                <i class="bi bi-book"></i>
+                                <p>Materiais diários</p>
+                            </li>
+                            <li>          
+                                <i class="bi bi-cassette"></i>
+                                <p>Áudiobooks</p>
+                            </li>
+                            <li>
+                                <i class="bi bi-clipboard-pulse"></i>
+                                <p>Dashboard mental</p>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <h2>PSYCHOS</h2>
+            <a href="#">(17) 99699-9999 <i class="bi bi-whatsapp"></i></a>
+            <h5>Rua Marea, n°10, Centro.</h5>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li>
+                    <i class="bi bi-activity"></i>
+                    <a href="#">Introdução</a>
+                </li>
+                <li>
+                    <i class="bi bi-gear"></i>
+                    <a href="#">Funções</a>
+                </li>
+                <li>
+                    <i class="bi bi-lightbulb"></i>
+                    <a href="#">Dicas</a>
+                </li>
+                <li>
+                    <i class="bi bi-chat-heart"></i>
+                    <a href="#">Depoimentos</a>
+                </li>
+                <li>
+                    <i class="bi bi-pen"></i>
+                    <a href="#">Assinaturas</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-icons">
+            <div class="titulo-icons">
+                <h4>Entre em contato</h4>
+                <div class="separacao-footer">
+                    <hr>
+                </div>
+            </div>
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-envelope-at-fill"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
